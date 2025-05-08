@@ -59,3 +59,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project Setup
+
+- **Clone the repo - git clone https://github.com/Akhil0632/author-book-app.git**
+- **Open the terminal and change the directory to the project directory**
+- **Create .env and copy .env.example**
+- - **In env file change the value to these values :-**
+- -**DB_CONNECTION=mysql**
+- -**DB_DATABASE=author-book-app**
+- -**DB_USERNAME=your username**
+- -**DB_PASSWORD= your password**
+- -**Install dependencies - composer install**
+- **Generate application key with this command - php artisan key:generate**
+- **Run migration - php artisan migrate**
+- **Run Seeder - php artisan db:seed**
+- **Run project - php artisan serve**
+
+### URL of Project
+  
+- **Authors**
+- -** **
