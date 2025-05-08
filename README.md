@@ -65,18 +65,35 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - **Clone the repo - git clone https://github.com/Akhil0632/author-book-app.git**
 - **Open the terminal and change the directory to the project directory**
 - **Create .env and copy .env.example**
-- - **In env file change the value to these values :-**
-- -**DB_CONNECTION=mysql**
-- -**DB_DATABASE=author-book-app**
-- -**DB_USERNAME=your username**
-- -**DB_PASSWORD= your password**
-- -**Install dependencies - composer install**
+- **In env file change the value to these values :-**
+- **DB_CONNECTION=mysql**
+- **DB_DATABASE=author-book-app**
+- **DB_USERNAME=your username**
+- **DB_PASSWORD= your password**
+- **Install dependencies - composer install**
 - **Generate application key with this command - php artisan key:generate**
 - **Run migration - php artisan migrate**
 - **Run Seeder - php artisan db:seed**
 - **Run project - php artisan serve**
 
 ### URL of Project
+
+- **Visit the url http://127.0.0.1:8000/authors to get into the application.**
   
 - **Authors**
-- -** **
+- -**GET http://127.0.0.1:8000/authors - View a list of authors**
+- **GET http://127.0.0.1:8000/authors/{id} - View details of a specific author**
+- **GET http://127.0.0.1:8000/authors/create - Create a new author**
+- **GET http://127.0.0.1:8000/authors/{id}/edit - Edit an author**
+- **DELETE http://127.0.0.1:8000/authors/{id} - Delete an author**
+
+- **Books**
+- -**GET http://127.0.0.1:8000/books - View a list of books**
+- **GET http://127.0.0.1:8000/books/{id} - View details of a specific book**
+- **GET http://127.0.0.1:8000/books/create - Create a new book**
+- **GET http://127.0.0.1:8000/bboks/{id}/edit - Edit a book**
+- **DELETE http://127.0.0.1:8000/books/{id} - Delete a book**
+
+- **Chatbot**
+- -**GET http://127.0.0.1:8000/chatbot - View the chatbot interface**
+- **POST http://127.0.0.1:8000/chatbot/query - Send a query to the chatbot**
